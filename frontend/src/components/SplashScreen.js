@@ -14,7 +14,7 @@ const SplashScreen = ({ onComplete }) => {
     const timer = setTimeout(() => {
       console.log('SplashScreen completing');
       onComplete();
-    }, 2000); // 2 second delay
+    }, 4000); // 4 second delay
     
     return () => clearTimeout(timer);
   }, []); // Empty dependency array - run once on mount
